@@ -1,14 +1,18 @@
 body{
     margin: 0;
-    margin-left: ;
+}
+p{
+    font-size: 25px;
 }
 h1{
     font-size: 50px;
 }
-
+.text{
+    color: coral;
+}
 section{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .half{
     width: 50%;
@@ -19,30 +23,50 @@ section{
    
 }
 .box{
-    border-left: 5px solid black ;
+    border-left: 5px solid rgb(240, 64, 64) ;
    
 }
 .link{
     text-decoration: none;
-    background-color: red ;
-    border-radius: 2px;
-    padding: 10px 20px;
+    background-color: rgb(240, 64, 64) ;
+    border-radius: 5px;
+    padding: 10px 30px;
     color: seashell;
     margin-top: 60px;
 }
 .para{
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .mission{
     text-align: center;
 }
 
-.goal{
+.m{
     width: 100%;
-    border: 2px solid black;
+    border-radius: 20px;
     margin-left: 5%;
     height: 250PX;
+    background-color: rgb(233, 191, 76);
+    
 }
+.v{
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 5%;
+    height: 250PX;
+    background-color: rgb(241, 144, 114);
+}
+.g{
+    width: 100%; 
+    border-radius: 20px;
+    margin-left: 5%;
+    height: 250PX;
+    background-color: rgb(240, 109, 201);
+}
+
+
+
+
 .illustrate{
     height: 100px;
     width: 100px;
@@ -58,6 +82,8 @@ section{
     background-repeat: no-repeat;
     background-size: 20%;
     background-position: right bottom;
+
+    
 }
 
 
@@ -71,7 +97,7 @@ section{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: rgb(247, 225, 103);
+	background-color: coral;
 	width: 945px;
 	height: 474px;
 	border-radius: 10px;
@@ -90,7 +116,7 @@ section{
 
 
 .button {
-	background: orange;
+	background:  rgb(240, 64, 64);
 	padding: 10px;
 	border: none;
 	width: 244px;
@@ -104,5 +130,9 @@ section{
     background-color: black;
     color: white;
     justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+.foot{
+    font-family: italic;
 }
 
